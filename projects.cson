@@ -1,0 +1,34 @@
+[
+  {
+    title: "atalanda"
+    group: "atalanda"
+    paths: [
+      "/home/office/projects/atalanda"
+    ]
+    icon: "icon-code"
+  },
+  {
+    title: "atalogics"
+    group: "atalanda"
+    paths: [
+      "/home/office/projects/atalogics"
+    ]
+    icon: "icon-code"
+  },
+  {
+    title: "atalanda_api"
+    group: "atalanda_api"
+    paths: [
+      "/home/office/projects/atalanda_api"
+    ]
+    icon: "icon-code"
+  },
+  {
+    title: "ci-scripts"
+    group: "ci-scripts"
+    paths: [
+      "/home/office/projects/ci-scripts"
+    ]
+    icon: "icon-code"
+  }
+]

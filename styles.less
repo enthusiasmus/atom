@@ -1,0 +1,114 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+
+.tree-view {
+    font-size: 15px;
+}
+
+.tree-view-scroller {
+    border-right: 1px solid #FAFAFA;
+}
+
+.tree-view-resizer .tree-view-resize-handle,
+atom-pane-container atom-pane-axis.horizontal > atom-pane-resize-handle:before {
+  width: 1rem;
+}
+
+atom-pane-container atom-pane-axis.vertical > atom-pane-resize-handle:before {
+  height: 1rem;
+  top: -0.5rem
+}
+
+.tool-bar .btn {
+    color: #FAFAFA;
+}
+
+.tab-bar {
+    background-color: #009688;
+}
+
+.tab-bar .tab {
+  max-width: 235px;
+}
+
+.tool-bar.tool-bar-horizontal.tool-bar-top {
+    background-color: #009688;
+}
+
+body > atom-workspace > atom-workspace-axis > atom-panel-container.right > atom-panel > div {
+    border-left: 1px solid lightgrey;
+}
+
+.tree-view .name.icon::before {
+    margin: 0 0.5rem 0 0;
+}
+
+.tab-bar .tab {
+    background: #009688;
+    color: #FAFAFA;
+}
+
+.tab-bar .tab.active::before {
+    background-color: #FAFAFA;
+    margin: 0 1px 1px;
+}
+
+.tab-bar .icon::before {
+    color: #FAFAFA !important;
+}
+
+.list-tree li.list-nested-item > .list-item,
+.list-tree li:not(.list-nested-item):not(.tabBlender) {
+    line-height: 2em;
+}
+
+atom-text-editor {
+    font-size: 15px;
+}
+
+.syntax--comment, .syntax--punctuation.syntax--definition.syntax--comment {
+  color: #607d8b;
+}
+
+status-bar {
+  font-size: 15px;
+}
+
+.select-list ol.list-group {
+  max-height: 400px;
+}
+
+.overlay.from-top {
+  top: 50%;
+  margin-top: -250px;
+}
+
+.overlay, atom-panel.modal {
+  width: 700px;
+  margin-left: -350px;
+  font-size: 15px;
+}
+
+.minimap .cursor-line {
+  background: grey;
+}
+
+.minimap .search-result {
+  background: black;
+}
+
+.minimap .highlight-selected {
+  background: navy;
+}
+
+.minimap .highlight-selected.selected {
+  background: blue;
+}

@@ -1,0 +1,124 @@
+"*":
+  "atom-beautify":
+    general:
+      analytics: false
+    js:
+      beautify_on_save: true
+      default_beautifier: "ESLint Fixer"
+      indent_size: 2
+    ruby:
+      beautify_on_save: true
+      indent_size: 2
+    scss:
+      beautify_on_save: true
+      configPath: ".csscomb.json"
+      convert_quotes: "double"
+      default_beautifier: "CSScomb"
+      indent_size: 2
+      preserve_newlines: true
+      wrap_line_length: 100
+  "atom-css-comb":
+    readyMadeConfigs: "zen"
+  core:
+    allowPendingPaneItems: false
+    disabledPackages: [
+      "language-gfm"
+      "markdown-scroll-sync"
+      "atom-css-comb"
+      "scss-snippets"
+      "autocomplete-ruby"
+      "symbols-tree-view"
+      "emmet"
+      "rails-i18n-autocomplete"
+      "busy-signal"
+      "activate-power-mode"
+      "rest-client"
+      "javascript-snippets"
+      "linter-erb"
+      "linter-docker"
+      "rubocop-auto-correct"
+      "linter-rubocop"
+      "atom-beautify"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "coverage"
+    ]
+    packagesWithKeymapsDisabled: []
+    projectHome: "/var/www/"
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax-light"
+    ]
+  editor:
+    fontSize: 16
+    preferredLineLength: 100
+    showIndentGuide: true
+    softWrap: true
+    softWrapHangingIndent: 2
+  "exception-reporting":
+    userId: ""
+  "file-icons":
+    strategies: {}
+  "highlight-selected":
+    hideHighlightOnSelectedWord: true
+    highlightBackground: true
+    lightTheme: true
+  "linter-docker": {}
+  "linter-eslint":
+    disableFSCache: true
+    disableWhenNoEslintConfig: false
+    fixOnSave: true
+  "linter-php":
+    executablePath: "/usr/bin/php"
+  "linter-scss-lint": {}
+  "linter-ui-default":
+    showPanel: true
+    showProviderName: true
+  minimap:
+    charHeight: 3
+    charWidth: 1.5
+    moveCursorOnMinimapClick: true
+    plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 1
+      linter: true
+      linterDecorationsZIndex: 0
+      "minimap-autohide": true
+      "minimap-autohideDecorationsZIndex": 0
+    scrollAnimation: true
+    textOpacity: 0.7
+  pigments:
+    autocompleteSuggestionsFromValue: true
+    extendAutocompleteToColorValue: true
+    extendAutocompleteToVariables: true
+    extendedSearchNames: [
+      "**/*.css"
+      "**/*.scss"
+      "**/*.less"
+      "**/*.sass"
+      "**/*.stylus"
+    ]
+  "ruby-block": {}
+  "status-bar": {}
+  "symbols-tree-view":
+    autoToggle: true
+    defaultWidth: 250
+  "tool-bar": {}
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
