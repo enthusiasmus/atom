@@ -9,83 +9,38 @@
  * http://lesscss.org
  */
 
-.tree-view {
-    font-size: 15px;
-}
-
-.tree-view-scroller {
-    border-right: 1px solid #FAFAFA;
-}
-
-.tree-view-resizer .tree-view-resize-handle,
-atom-pane-container atom-pane-axis.horizontal > atom-pane-resize-handle:before {
-  width: 1rem;
-}
-
-atom-pane-container atom-pane-axis.vertical > atom-pane-resize-handle:before {
-  height: 1rem;
-  top: -0.5rem
-}
-
-.tool-bar .btn {
-    color: #FAFAFA;
-}
-
-.tab-bar {
-    background-color: #009688;
+atom-text-editor, status-bar, .tab-bar, .tree-view {
+  font-size: 15px;
+  color: #555;
 }
 
 .tab-bar .tab {
   max-width: 235px;
 }
 
-.tool-bar.tool-bar-horizontal.tool-bar-top {
-    background-color: #009688;
+// Resizer
+.atom-dock-resize-handle.atom-dock-resize-handle-resizable.left {
+  width: 10px;
+  // background: #009688;
 }
 
-body > atom-workspace > atom-workspace-axis > atom-panel-container.right > atom-panel > div {
-    border-left: 1px solid lightgrey;
+atom-pane-container atom-pane-axis.horizontal > atom-pane-resize-handle:before {
+  width: 10px;
+  // background: #009688;
 }
 
-.tree-view .name.icon::before {
-    margin: 0 0.5rem 0 0;
+atom-pane-container atom-pane-axis.vertical > atom-pane-resize-handle:before {
+  height: 10px;
+  top: -0.5rem;
+  // background: #009688;
 }
 
-.tab-bar .tab {
-    background: #009688;
-    color: #FAFAFA;
-}
-
-.tab-bar .tab.active::before {
-    background-color: #FAFAFA;
-    margin: 0 1px 1px;
-}
-
-.tab-bar .icon::before {
-    color: #FAFAFA !important;
-}
-
-.list-tree li.list-nested-item > .list-item,
-.list-tree li:not(.list-nested-item):not(.tabBlender) {
-    line-height: 2em;
-}
-
-atom-text-editor {
-    font-size: 15px;
-}
-
+// Darken comments
 .syntax--comment, .syntax--punctuation.syntax--definition.syntax--comment {
   color: #607d8b;
 }
 
-status-bar {
-  font-size: 15px;
-}
-
-.select-list ol.list-group {
-  max-height: 400px;
-}
-
+// Commands and file overlay
 .overlay.from-top {
   top: 50%;
   margin-top: -250px;
@@ -97,6 +52,7 @@ status-bar {
   font-size: 15px;
 }
 
+// Minimap
 .minimap .cursor-line {
   background: grey;
 }

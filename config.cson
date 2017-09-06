@@ -1,4 +1,8 @@
 "*":
+  "activate-power-mode":
+    plugins:
+      playAudio: true
+      screenShake: true
   "atom-beautify":
     general:
       analytics: false
@@ -23,22 +27,15 @@
     allowPendingPaneItems: false
     disabledPackages: [
       "language-gfm"
-      "markdown-scroll-sync"
       "atom-css-comb"
       "scss-snippets"
       "autocomplete-ruby"
-      "symbols-tree-view"
       "emmet"
       "rails-i18n-autocomplete"
       "busy-signal"
-      "activate-power-mode"
-      "rest-client"
       "javascript-snippets"
-      "linter-erb"
-      "linter-docker"
-      "rubocop-auto-correct"
-      "linter-rubocop"
       "atom-beautify"
+      "symbols-view"
     ]
     ignoredNames: [
       ".git"
@@ -63,7 +60,7 @@
     softWrap: true
     softWrapHangingIndent: 2
   "exception-reporting":
-    userId: ""
+    userId: "695a9f61-0d28-4b97-9588-10cdd8f8a24a"
   "file-icons":
     strategies: {}
   "highlight-selected":
